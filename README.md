@@ -51,6 +51,15 @@ URGENT! Click here to verify your account: http://fake-link.com
 ⚠️ High Risk: This looks like a phishing email!
 Risk Score: 5
 
+## Project Structure
+
+
+AIML-Project/
+│── phishing_email_detector.py
+│── README.md
+│── Project Report.docx
+
+
 
 
 
