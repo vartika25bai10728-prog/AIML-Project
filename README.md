@@ -14,3 +14,10 @@ The script uses a weighted scoring system:
 * *Keywords:* +1 point per match.
 * *Links:* +2 points.
 * *Formatting (Caps):* +1 point.
+
+## Technologies Used
+
+* Python 3
+* Basic string processing
+
+
