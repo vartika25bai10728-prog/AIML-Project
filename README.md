@@ -20,7 +20,7 @@ The script uses a weighted scoring system:
 * Python 3
 * Basic string processing
 
-## ▶️ How to Run
+## How to Run
 
 1. Make sure Python is installed
 
