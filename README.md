@@ -48,7 +48,7 @@ URGENT! Click here to verify your account: http://fake-link.com
 *Output:*
 
 
-⚠️ High Risk: This looks like a phishing email!
+High Risk: This looks like a phishing email!
 Risk Score: 5
 
 ## Project Structure
@@ -62,6 +62,7 @@ AIML-Project/
 ## Author
 
 * Vartika Tomar
+
 
 
 
