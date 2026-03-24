@@ -59,6 +59,11 @@ AIML-Project/
 │── README.md
 │── Project Report.docx
 
+## Author
+
+* Vartika Tomar
+
+
 
 
 
