@@ -20,4 +20,22 @@ The script uses a weighted scoring system:
 * Python 3
 * Basic string processing
 
+## ▶️ How to Run
+
+1. Make sure Python is installed
+
+2. Clone this repository:
+
+   bash
+   git clone https://github.com/your-username/AIML-Project.git
+   cd AIML-Project
+   
+3. Run the script:
+
+   bash
+   python phishing_email_detector.py
+   
+4. Enter an email/message when prompted
+
+
 
