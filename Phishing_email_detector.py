@@ -27,5 +27,13 @@ def detect_phishing(email):
 
     print("Risk Score:", score)
 
+# Main Program
+print("📧 Phishing Email Detector")
+
+email = input("Enter email/message: ")
+
+detect_phishing(email)
+
+
 
 
