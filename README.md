@@ -37,5 +37,21 @@ The script uses a weighted scoring system:
    
 4. Enter an email/message when prompted
 
+## Example
+
+*Input:*
+
+
+URGENT! Click here to verify your account: http://fake-link.com
+
+
+*Output:*
+
+
+⚠️ High Risk: This looks like a phishing email!
+Risk Score: 5
+
+
+
 
 
