@@ -17,4 +17,15 @@ def detect_phishing(email):
     if email.isupper():
         score += 1
 
+    # Result
+    if score >= 4:
+        print("⚠️ High Risk: This looks like a phishing email!")
+    elif score >= 2:
+        print("⚠️ Medium Risk: Be careful, this may be suspicious.")
+    else:
+        print("✅ Low Risk: Seems safe, but stay alert.")
+
+    print("Risk Score:", score)
+
+
 
