@@ -8,3 +8,9 @@ A lightweight Python-based security tool that analyzes email content for common 
 * *Link Detection:* Identifies the presence of URLs or web addresses.
 * *Urgency Check:* Detects if the message is written in all caps.
 * *Risk Scoring:* Provides a tiered risk assessment (Low, Medium, High).
+
+## How It Works
+The script uses a weighted scoring system:
+* *Keywords:* +1 point per match.
+* *Links:* +2 points.
+* *Formatting (Caps):* +1 point.
