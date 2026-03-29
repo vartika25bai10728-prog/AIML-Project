@@ -34,7 +34,7 @@ AIML-Project/
 
 │── Phishing_email_detector.py
 
-│── ProjectReport.docx
+│── Project Report AIML.pdf
 
 │── README.md
 
