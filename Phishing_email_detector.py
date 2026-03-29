@@ -61,5 +61,7 @@ model = LogisticRegression()
 model.fit(X_train, y_train)
 
 
+accuracy = model.score(X_test, y_test)
+print("Accuracy:", accuracy)
 
 
