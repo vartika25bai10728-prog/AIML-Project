@@ -1,7 +1,8 @@
 # AIML-Project
 # Phishing Email Detector
 
-A lightweight Python-based security tool that analyzes email content for common phishing indicators using keyword matching and structural analysis.
+## Project Overview
+
 
 ## Features
 * *Keyword Analysis:* Scans for high-pressure words like "urgent," "verify," and "win."
