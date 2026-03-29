@@ -1,8 +1,9 @@
 # AIML-Project
+
 # Phishing Email Detector
 
-## Project Overview
 
+## Project Overview
 This project is an AI-based Phishing Email Detector that identifies whether an email/message is phishing i.e. fake or safe.
 Initially built using keyword-based detection, I upgraded the project to use Machine Learning (ML) with a real dataset for better accuracy and adaptability.
 
@@ -10,12 +11,29 @@ Initially built using keyword-based detection, I upgraded the project to use Mac
 ## Features
 
 *Detects phishing emails using Machine Learning
+
 *Uses TF-IDF vectorization for text processing
+
 *Trained on a real phishing dataset taken from kaggle
+
 *Provides:
+
    -Prediction (Phishing / Safe)
+   
    -Model accuracy
+   
 *Simple command-line interface
+
+
+## Project Structure
+
+AIML-Project/
+│── Data/
+│   └── Phishing_Email.csv
+│── Phishing_email_detector.py
+│── Project Report
+│── README.md
+
 
 ## How It Works
 The script uses a weighted scoring system:
