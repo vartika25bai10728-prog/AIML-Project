@@ -8,10 +8,14 @@ Initially built using keyword-based detection, I upgraded the project to use Mac
 
 
 ## Features
-* *Keyword Analysis:* Scans for high-pressure words like "urgent," "verify," and "win."
-* *Link Detection:* Identifies the presence of URLs or web addresses.
-* *Urgency Check:* Detects if the message is written in all caps.
-* *Risk Scoring:* Provides a tiered risk assessment (Low, Medium, High).
+
+*Detects phishing emails using Machine Learning
+*Uses TF-IDF vectorization for text processing
+*Trained on a real phishing dataset taken from kaggle
+*Provides:
+   -Prediction (Phishing / Safe)
+   -Model accuracy
+*Simple command-line interface
 
 ## How It Works
 The script uses a weighted scoring system:
