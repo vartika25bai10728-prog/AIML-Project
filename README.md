@@ -34,7 +34,7 @@ AIML-Project/
 
 │── Phishing_email_detector.py
 
-│── Project Report
+│── ProjectReport.docx
 
 │── README.md
 
@@ -65,7 +65,7 @@ pip install pandas scikit-learn
 
 Run the Python file:
 
-python main.py
+Phishing_email_detector.py
 
 Then enter an email/message:
 
@@ -95,64 +95,22 @@ Uses Logistic Regression to learn patterns
 4. Prediction
    
 *Takes user input
+
 *Converts it to vector form
+
 *Predicts phishing or safe
 
-
-## How It Works
-The script uses a weighted scoring system:
-* *Keywords:* +1 point per match.
-* *Links:* +2 points.
-* *Formatting (Caps):* +1 point.
-
-## Technologies Used
-
-* Python 3
-* Basic string processing
-
-## How to Run
-
-1. Make sure Python is installed
-
-2. Clone this repository:
-
-   bash
-   git clone https://github.com/your-username/AIML-Project.git
-   cd AIML-Project
-   
-3. Run the script:
-
-   bash
-   python phishing_email_detector.py
-   
-4. Enter an email/message when prompted
-
-## Example
-
-*Input:*
-
-
-URGENT! Click here to verify your account: http://fake-link.com
-
-
-*Output:*
-
-
-High Risk: This looks like a phishing email!
-Risk Score: 5
-
-## Project Structure
-
-
-AIML-Project/
-│── phishing_email_detector.py
-│── README.md
-│── Project Report.docx
 
 ## Author
 
 * Vartika Tomar
 
+
+## Acknowledgements
+
+Kaggle dataset contributors
+
+Open-source Python libraries
 
 
 
