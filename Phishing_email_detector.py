@@ -34,7 +34,10 @@ email = input("Enter email/message: ")
 
 detect_phishing(email)
 
+import pandas as pd
 
+df = pd.read_csv("Data/Phishing_Email.csv")
+print(df.head())
 
 
 
