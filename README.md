@@ -28,10 +28,14 @@ Initially built using keyword-based detection, I upgraded the project to use Mac
 ## Project Structure
 
 AIML-Project/
+
 │── Data/
 │   └── Phishing_Email.csv
+
 │── Phishing_email_detector.py
+
 │── Project Report
+
 │── README.md
 
 
