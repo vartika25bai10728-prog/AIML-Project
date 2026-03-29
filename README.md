@@ -3,6 +3,9 @@
 
 ## Project Overview
 
+This project is an AI-based Phishing Email Detector that identifies whether an email/message is phishing i.e. fake or safe.
+Initially built using keyword-based detection, I upgraded the project to use Machine Learning (ML) with a real dataset for better accuracy and adaptability.
+
 
 ## Features
 * *Keyword Analysis:* Scans for high-pressure words like "urgent," "verify," and "win."
