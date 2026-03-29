@@ -39,5 +39,27 @@ import pandas as pd
 df = pd.read_csv("Data/Phishing_Email.csv")
 print(df.head())
 
+print(df.columns)
+
+X = df['text']     # email content
+y = df['label']    # 0 = safe, 1 = phishing
+
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+vectorizer = TfidfVectorizer()
+
+X_vectorized = vectorizer.fit_transform(X)
+
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+
+X_train, X_test, y_train, y_test = train_test_split(
+    X_vectorized, y, test_size=0.2
+)
+
+model = LogisticRegression()
+model.fit(X_train, y_train)
+
+
 
 
