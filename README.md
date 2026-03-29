@@ -39,6 +39,17 @@ AIML-Project/
 │── README.md
 
 
+## Dataset
+
+Source: Kaggle (Phishing Email Dataset)
+
+Contains:
+Email text/content
+Labels (Phishing = 1, Safe = 0)
+
+The dataset is placed inside:
+Data/Phishing_Email.csv
+
 ## How It Works
 The script uses a weighted scoring system:
 * *Keywords:* +1 point per match.
