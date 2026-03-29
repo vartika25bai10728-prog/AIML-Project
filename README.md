@@ -61,6 +61,44 @@ cd AIML-Project
 pip install pandas scikit-learn
 
 
+## How to Run
+
+Run the Python file:
+
+python main.py
+
+Then enter an email/message:
+
+Enter email/message: Your account is locked. Click here to verify.
+
+Output:
+
+⚠️ Phishing Email Detected!
+Accuracy: 0.95
+
+
+## How It Works
+
+1. Data Loading
+   
+Reads dataset using pandas
+
+2. Text Processing
+   
+Converts text into numerical form using:
+TF-IDF (Term Frequency - Inverse Document Frequency)
+
+3. Model Training
+ 
+Uses Logistic Regression to learn patterns
+
+4. Prediction
+   
+*Takes user input
+*Converts it to vector form
+*Predicts phishing or safe
+
+
 ## How It Works
 The script uses a weighted scoring system:
 * *Keywords:* +1 point per match.
