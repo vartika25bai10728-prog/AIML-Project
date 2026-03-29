@@ -50,6 +50,17 @@ Labels (Phishing = 1, Safe = 0)
 The dataset is placed inside:
 Data/Phishing_Email.csv
 
+
+## Installation
+
+1. Clone the repository
+git clone https://github.com/your-username/AIML-Project.git
+cd AIML-Project
+
+2. Install dependencies
+pip install pandas scikit-learn
+
+
 ## How It Works
 The script uses a weighted scoring system:
 * *Keywords:* +1 point per match.
