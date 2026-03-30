@@ -54,7 +54,7 @@ Data/Phishing_Email.csv
 ## Installation
 
 1. Clone the repository
-git clone https://github.com/your-username/AIML-Project.git
+git clone https://github.com/vartika25bai10728-prog/AIML-Project
 cd AIML-Project
 
 2. Install dependencies
