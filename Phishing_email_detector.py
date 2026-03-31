@@ -1,7 +1,7 @@
 import pandas as pd
 
 # added dataset imported from kaggle
-df = pd.read_csv("Data/Phishing_Email.csv")
+df = pd.read_csv("C:/Users/VARTIKA TOMAR/Desktop/AIML Project/AIML-Project/Data/Phishing_Email.csv")
 
 print(df.head())
 print(df.columns)
@@ -9,9 +9,8 @@ print(df.columns)
 # To see data in more organized way
 df = df.dropna()
 
-X = df['text']      
-y = df['label']     
-
+X = df['Email Text']
+y = df['Email Type']
 
 # To convert text to numbers
 from sklearn.feature_extraction.text import TfidfVectorizer
