@@ -73,7 +73,7 @@ Enter email/message: Your account is locked. Click here to verify.
 
 Output:
 
-⚠️ Phishing Email Detected!
+Phishing Email Detected!
 Accuracy: 0.95
 
 
