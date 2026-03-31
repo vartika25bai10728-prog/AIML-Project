@@ -1,6 +1,5 @@
-# ==============================
 # PHISHING EMAIL DETECTOR 
-# ==============================
+
 
 import pandas as pd
 import pickle
@@ -11,9 +10,9 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
 
 
-# ==============================
+
 # 1. LOAD DATA
-# ==============================
+
 
 def load_data(path):
     df = pd.read_csv(path, index_col=0)  
@@ -25,9 +24,9 @@ def load_data(path):
     return X, y
 
 
-# ==============================
+
 # 2. TRAIN MODEL
-# ==============================
+
 
 def train_model(X, y):
     vectorizer = TfidfVectorizer()
@@ -43,7 +42,7 @@ def train_model(X, y):
 
     y_pred = model.predict(X_test)
 
-    print("\n✅ Model Evaluation:\n")
+    print("\n Model Evaluation:\n")
     print("Accuracy:", accuracy_score(y_test, y_pred))
     print("\nClassification Report:\n")
     print(classification_report(y_test, y_pred))
@@ -51,19 +50,19 @@ def train_model(X, y):
     return model, vectorizer
 
 
-# ==============================
+
 # 3. SAVE MODEL
-# ==============================
+
 
 def save_model(model, vectorizer):
     pickle.dump(model, open("model.pkl", "wb"))
     pickle.dump(vectorizer, open("vectorizer.pkl", "wb"))
-    print("\n💾 Model saved successfully!")
+    print("\n Model saved successfully!")
 
 
-# ==============================
+
 # 4. LOAD MODEL
-# ==============================
+
 
 def load_model():
     model = pickle.load(open("model.pkl", "rb"))
@@ -71,9 +70,9 @@ def load_model():
     return model, vectorizer
 
 
-# ==============================
+
 # 5. PREDICT FUNCTION
-# ==============================
+
 
 def predict_email(text, model, vectorizer):
     vectorized_text = vectorizer.transform([text])
@@ -81,12 +80,12 @@ def predict_email(text, model, vectorizer):
     return prediction[0]
 
 
-# ==============================
+
 # 6. MAIN PROGRAM
-# ==============================
+
 
 def main():
-    print("📧 AI Phishing Email Detector\n")
+    print(" AI Phishing Email Detector\n")
 
     import os
     print(os.getcwd())
@@ -115,9 +114,9 @@ def main():
         print("🔍 Prediction:", result)
 
 
-# ==============================
+
 # RUN
-# ==============================
+
 
 if __name__ == "__main__":
     main()
