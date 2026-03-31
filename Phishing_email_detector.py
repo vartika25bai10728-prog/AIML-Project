@@ -6,11 +6,11 @@ df = pd.read_csv("Data/Phishing_Email.csv")
 print(df.head())
 print(df.columns)
 
-X = df['text']      
-y = df['label']     
-
 # To see data in more organized way
 df = df.dropna()
+
+X = df['text']      
+y = df['label']     
 
 # To convert text to numbers
 from sklearn.feature_extraction.text import TfidfVectorizer
