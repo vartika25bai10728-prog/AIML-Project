@@ -9,8 +9,13 @@ print(df.columns)
 # To see data in more organized way
 df = df.dropna()
 
+<<<<<<< HEAD
 X = df['Email Text']
 y = df['Email Type']
+=======
+X = df['text']      
+y = df['label']     
+>>>>>>> 5170450e33ea086e5feeaba90e0b1dea62233e8e
 
 # To convert text to numbers
 from sklearn.feature_extraction.text import TfidfVectorizer
